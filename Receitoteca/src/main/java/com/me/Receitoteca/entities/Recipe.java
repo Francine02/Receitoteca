@@ -5,6 +5,7 @@ import java.util.List;
 import com.me.Receitoteca.enums.Category;
 import com.me.Receitoteca.enums.Difficulty;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
@@ -16,7 +17,7 @@ import lombok.Data;
 
 @Data
 @Entity
-public class Revenue {
+public class Recipe {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -26,6 +27,7 @@ public class Revenue {
     @ElementCollection
     private List<String> ingredients;
 
+    @Column( columnDefinition = "TEXT" )
     private String description;
 
     private String imgUrl;
