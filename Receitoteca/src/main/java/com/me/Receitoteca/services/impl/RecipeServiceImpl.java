@@ -112,7 +112,7 @@ public class RecipeServiceImpl implements RecipeService {
                     .setTextAlignment(com.itextpdf.layout.properties.TextAlignment.CENTER)
                     .setFontSize(16)
                     .setMarginBottom(10));
-            document.add(new Paragraph(recipe.getDescription()).setMarginBottom(20)
+            document.add(new Paragraph(recipe.getPreparation()).setMarginBottom(20)
                     .setTextAlignment(com.itextpdf.layout.properties.TextAlignment.CENTER));
 
             // Tabela com detalhes adicionais

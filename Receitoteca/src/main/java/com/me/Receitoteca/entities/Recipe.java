@@ -28,7 +28,7 @@ public class Recipe {
     private List<String> ingredients;
 
     @Column( columnDefinition = "TEXT" )
-    private String description;
+    private String preparation;
 
     private String imgUrl;
 

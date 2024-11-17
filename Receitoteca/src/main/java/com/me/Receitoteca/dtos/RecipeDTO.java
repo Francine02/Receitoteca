@@ -9,7 +9,7 @@ public record RecipeDTO(
     Long id,
     String title,
     List<String> ingredients,
-    String description,
+    String preparation,
     String imgUrl,
     int prepTime,
     int cookTime,

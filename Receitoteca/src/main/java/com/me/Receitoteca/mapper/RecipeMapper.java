@@ -9,7 +9,7 @@ public class RecipeMapper {
                 recipe.getId(),
                 recipe.getTitle(),
                 recipe.getIngredients(),
-                recipe.getDescription(),
+                recipe.getPreparation(),
                 recipe.getImgUrl(),
                 recipe.getPrepTime(),
                 recipe.getCookTime(),
@@ -23,7 +23,7 @@ public class RecipeMapper {
         recipe.setCategory(recipeDTO.category());
         recipe.setTitle(recipeDTO.title());
         recipe.setIngredients(recipeDTO.ingredients());
-        recipe.setDescription(recipeDTO.description());
+        recipe.setPreparation(recipeDTO.preparation());
         recipe.setImgUrl(recipeDTO.imgUrl());
         recipe.setPrepTime(recipeDTO.prepTime());
         recipe.setCookTime(recipeDTO.cookTime());
