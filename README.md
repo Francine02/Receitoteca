@@ -1,5 +1,10 @@
 <h1 align="center">
   Receitoteca 🍴
+  <p>
+    <img src="https://img.shields.io/github/last-commit/Francine02/Receitoteca?style=flat&logo=git&logoColor=white&color=FFA500" alt="Last Commit">
+    <img src="https://img.shields.io/github/languages/top/Francine02/Receitoteca?style=flat&color=FFA500" alt="Top Language">
+    <img src="https://img.shields.io/github/languages/count/Francine02/Receitoteca?style=flat&color=FFA500" alt="Languages Count">
+  </p>
 </h1>
 
 Receitoteca é uma API para gerenciar receitas de culinária. Ela permite aos usuários cadastrar, atualizar, excluir e listar receitas, com informações detalhadas sobre os pratos, como título, ingredientes, tempo de preparo, categoria, dificuldade e muito mais.
